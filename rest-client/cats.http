@@ -1,0 +1,14 @@
+@baseurl = http://localhost:3000
+
+###
+GET {{baseurl}}/cats
+
+### 
+POST  {{baseurl}}/cats
+Content-Type: application/json
+
+{
+    "name":"tom",
+    "age": 1,
+    "breed": "fish"   
+}
